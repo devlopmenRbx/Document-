@@ -1,0 +1,48 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+body.matrix-bg {
+  background: black;
+  color: #00ff00;
+  min-height: 100vh;
+}
+
+.login-box, .container {
+  width: 90%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #00ff00;
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+}
+
+button:hover {
+  background: #00ff00;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #00ff00;
+  padding: 5px;
+}
+
+.logout {
+  margin-top: 20px;
+}
